@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Permanent+Marker&family=Teko:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>ARK BOOK</title>
+</head>
+<body>
+    <header>
+        <div class="headerdiv">
+            <div class="header11">
+                <span class="icon1"><i class="fa-solid fa-book-open-reader"></i></span>
+                 <h2 class="iconh2">ARK</h2>
+                 <h3 class="iconh3">BOOK</h3>
+            </div>
+            <form action="">
+                <input type="search" placeholder="Serach">
+            </form>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Categories</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contect</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="sec1">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="sec1div1">
+                            <div class="sec1text">
+                                <p>Science fiction</p>
+                                <h3>The History <br>of phipino</h3>
+                                <BUtton>Browse Store</BUtton>
+                            </div>
+                            <img src="assets/img/sec1.1.jpg" alt="">
+
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sec1div1">
+                            <div class="sec1text">
+                                <p>Science fiction</p>
+                                <h3>The History <br>of phipino</h3>
+                                <BUtton>Browse Store</BUtton>
+                            </div>
+                            <img src="assets/img/sec1.2.jpg" alt="">
+                            
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="sec1div1">
+                            <div class="sec1text">
+                                <p>Science fiction</p>
+                                <h3>The History <br>of phipino</h3>
+                                <BUtton>Browse Store</BUtton>  
+                            </div>
+                            <img src="assets/img/sec1.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <section class="sec2">
+                   <div class="sec2div1"><p>Best Selling Books Ever</p></div>
+        </section>
+        <section class="sec3">
+            <div class="sec3div1"></div>
+            <!-- gallery -->
+            <script
+            src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+            <div class="container">
+                <div class="card">
+                    <div class="faceface1">
+                        <div class="content">
+                            <img src="assets/img/best_selling3.jpg" alt="">
+                            <h3>EVANESCE</h3>
+                        </div>
+                    </div>
+                    <div class="faceface2">
+                        <div class="content">
+                            <p>ALEX SARRIS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <div class="faceface1">
+                        <div class="content">
+                            <img src="assets/img/best-books1.jpg" alt="">
+                            <h3>Mon Dance</h3>
+                        </div>
+                    </div>
+                    <div class="faceface2">
+                        <div class="content">
+                            <p>J.R.RAIN</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+             <div class="container">
+                <div class="card">
+                    <div class="faceface1">
+                        <div class="content">
+                            <img src="assets/img/best_selling5.jpg" alt="">
+                            <h3>SIN EATER</h3>
+                        </div>
+                    </div>
+                    <div class="faceface2">
+                        <div class="content">
+                            <p>MEGAN CAMPISI</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="container">
+                <div class="card">
+                    <div class="faceface1">
+                        <div class="content">
+                            <img src="assets/img/best_selling2.jpg" alt="">
+                            <h3>VERY NICE</h3>
+                        </div>
+                    </div>
+                    <div class="faceface2">
+                        <div class="content">
+                            <p>AUTHOR NAME</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+       </section>
+    </main>
+    <footer>
+         <div class="footerdiv1"></div>
+        
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            cssMode: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+</html>
